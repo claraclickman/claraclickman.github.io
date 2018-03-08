@@ -421,8 +421,7 @@ img {
 	position: relative;
 	list-style: none;
 	float: left;
-	padding-top: 5;
-	padding-right: 5;
+	padding: 5;
 }
 
 .gallery ul li a {
@@ -431,7 +430,7 @@ img {
 	width: 100%;
 	height: 100%;
 	margin: 0;
-	padding: 0;
+	padding: 5;
 	line-height: 0;
 }
 
