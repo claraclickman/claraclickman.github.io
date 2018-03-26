@@ -87,7 +87,10 @@
 					<div align="center">
 
 						<script>
-        				marmoset.embed( 'coyote_skull.mview', { width: 1920, height: 600, autoStart: true, fullFrame: false, pagePreset: false } );
+
+						var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],x=w.innerWidth||e.clientWidth||g.clientWidth,y=w.innerHeight||e.clientHeight||g.clientHeight;
+
+        				marmoset.embed( 'coyote_skull.mview', { width: x, height: 600, autoStart: true, fullFrame: false, pagePreset: false } );
         				marmoset.transparentBackground = true;
     					</script>
 					</div>
