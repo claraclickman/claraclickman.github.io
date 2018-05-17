@@ -7,5 +7,5 @@ function randombg() {
         "url('http://placehold.it/300&text=banner5')",
         "url('http://placehold.it/300&text=banner6')"
     ];
-    document.getElementsByClassName("intro").style.backgroundImage = bigSize[3];
+    document.getElementsByClassName("row").style.backgroundImage = bigSize[random];
 }
